@@ -18,7 +18,7 @@ public class Control{
     public void volumenUp(){
         tv.volumenUp();
     }
-    public void tvolumenDown(){
+    public void volumenDown(){
         tv.volumenDown();
     }
     public void setCanal(int canal){
