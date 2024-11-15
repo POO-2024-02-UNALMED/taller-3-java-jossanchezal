@@ -27,7 +27,7 @@ public class TV{
     public int getVolumen(){
         return volumen;
     }
-    public Control getContol(){
+    public Control getControl(){
         return control;
     }
     public static int getNumTV(){
