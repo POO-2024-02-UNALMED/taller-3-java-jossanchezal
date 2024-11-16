@@ -52,9 +52,8 @@ public class Control{
         return tv;
     }
     public void setTv(TV tv){
-        if(tv.getEstado() == true){
         this.tv = tv;
-        }
+        
     }
 
    
