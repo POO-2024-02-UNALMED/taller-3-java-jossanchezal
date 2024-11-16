@@ -1,62 +1,45 @@
-package taller3.televisores;
+    package taller3.televisores;
 
-public class Control{
-    private TV tv;
+    public class Control{
+        private TV tv;
 
-    public void turnOn(){
-        if(tv.getEstado() == true){
-        tv.turnOn();
+        public void turnOn(){
+            tv.turnOn();
         }
-    }
-    public void turnOff(){
-        if(tv.getEstado() == true){
-        tv.turnOff();
+        public void turnOff(){
+            tv.turnOff();
         }
-    }
-    public void canalUp(){
-        if(tv.getEstado() == true){
-        tv.canalUp();
+        public void canalUp(){
+            tv.canalUp();
         }
-    }
-    public void canalDown(){
-        if(tv.getEstado() == true){
-        tv.canalDown();
+        public void canalDown(){
+            tv.canalDown();
         }
-    }
-    public void volumenUp(){
-        if(tv.getEstado() == true){
-        tv.volumenUp();
+        public void volumenUp(){
+            tv.volumenUp();
         }
-    }
-    public void volumenDown(){
-        if(tv.getEstado() == true){
-        tv.volumenDown();
+        public void volumenDown(){
+            tv.volumenDown();
         }
-    }
-    public void setCanal(int canal){
-        if(tv.getEstado() == true){
-        tv.setCanal(canal);
+        public void setCanal(int canal){
+            tv.setCanal(canal);
+        }  
+        public void setVolumen(int volumen){
+            tv.setVolumen(volumen);
         }
-    }
-    public void setVolumen(int volumen){
-        if(tv.getEstado() == true){
-        tv.setVolumen(volumen);
+        public void enlazar(TV tv){
+            this.tv= tv;
+            tv.setControl(this);
         }
-    }
-    public void enlazar(TV tv){
-        this.tv= tv;
-        tv.setControl(this);
+        public TV getTv(){
+            return tv;
+        }
+        public void setTv(TV tv){
+            this.tv = tv;
+        }
 
-    }
-    public TV getTv(){
-        return tv;
-    }
-    public void setTv(TV tv){
-        this.tv = tv;
-    }
-
-   
+    
 
 
 
-}
+    }
