@@ -4,10 +4,10 @@ public class Control{
     private TV tv;
 
     public void turnOn(){
-        tv.TurnOn();
+        tv.turnOn();
     }
     public void turnOff(){
-        tv.TurnOff();
+        tv.turnOff();
     }
     public void canalUp(){
         tv.canalUp();

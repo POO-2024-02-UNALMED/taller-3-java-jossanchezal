@@ -55,12 +55,12 @@ public class TV{
         numTV = num;
     }
 
-    public void TurnOn(){
+    public void turnOn(){
         if(estado==false){
             this.estado = true;
         }
     }
-    public void TurnOff(){
+    public void turnOff(){
         if(estado==true){
             this.estado = false;
         }
