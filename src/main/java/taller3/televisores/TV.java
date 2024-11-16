@@ -42,13 +42,13 @@ public class TV{
     public void setCanal(int canal){
              this.canal= canal;
     }
-     public void setPrecio(int precio){
+    public void setPrecio(int precio){
         this.precio= precio;
     }
-     public void setVolumen(int volumen){
+    public void setVolumen(int volumen){
         this.volumen= volumen;
     }
-     public void setControl(Control control){
+    public void setControl(Control control){
         this.control= control;
     }
     public static void setNumTV(int num) {
